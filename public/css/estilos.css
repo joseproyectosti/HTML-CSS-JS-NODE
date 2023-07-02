@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#cabecera {
+    background-color: gold;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2rem;
+}
+#cabecera > h1 > a {
+    text-decoration: none;
+    color: black;
+}
+#menu {
+    background-color: olive;
+    
+}
+#menu > ul > li > a {
+    text-decoration: none;
+    color: yellow;
+}
+#menu > ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+#menu > ul > li {
+    width: 25%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#menu > ul > li:hover {
+    background-color: ghostwhite;
+    
+}
+#menu > ul > li > a:hover {
+    color: green;
+}
+
+
+
+#Contenido {
+    background-color: black;
+    height: 580px;
+}
+#contenedor1 {
+    width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 3%;
+    font-weight: bold;
+    font-family: serif;
+}
+#titulo {
+    margin-bottom: 1%;
+    font-size: 2rem;
+}
+#contenedor2 {
+    width: 100%;
+    color: antiquewhite;
+    text-align: justify;
+    padding-top: 2%;
+    font-family: serif;
+}
+
+#texto {
+    
+    padding-left: 13%;
+    padding-right: 13%;
+    line-height: 38px;
+}
+
+#pie {
+    background-color: gold;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#pie > p > a {
+    text-decoration: none;
+    color: black;
+}
+#pie > p > a:hover {
+    color: green;
+}
